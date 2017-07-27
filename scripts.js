@@ -1,17 +1,1 @@
-'use strict';
-
-var switcher = document.getElementById('jsSwitcher');
-switcher.value = 0;
-var features = ['', 'float', 'float-grid', 'flex-horizontal', 'flex-vertical', 'multicol', 'basic-grid', 'advanced-grid'];
-var message = ['No layout', 'Float-based layout', 'Float fixed grid', 'Flexbox horizontal', 'Flexbox vertical', 'Multicolumn', 'Basic grid', 'More complicated grid'];
-var body = document.body;
-
-function switchFeature(e) {
-  for (var i = 0; i <= parseInt(e.target.value); i++) {
-    document.querySelector('.js-status').textContent = message[i];
-    body.className = features[i];
-  }
-}
-
-switcher.addEventListener('change', switchFeature);
-switcher.addEventListener('input', switchFeature);
+"use strict";function switchFeature(e){for(var t=0;t<=parseInt(e.target.value);t++)document.querySelector(".js-status").textContent=message[t],body.className=features[t]}var switcher=document.getElementById("jsSwitcher");switcher.value=0;var features=["","float","float-grid","flex-horizontal","flex-vertical","multicol","basic-grid","advanced-grid"],message=["No layout","Float-based layout","Float fixed grid","Flexbox horizontal","Flexbox vertical","Multicolumn","Basic grid","Pseudo-random grid"],body=document.body;switcher.addEventListener("change",switchFeature),switcher.addEventListener("input",switchFeature);

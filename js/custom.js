@@ -1,7 +1,7 @@
 const switcher = document.getElementById('jsSwitcher')
 switcher.value = 0
 const features = ['', 'float', 'float-grid', 'flex-horizontal', 'flex-vertical', 'multicol', 'basic-grid', 'advanced-grid']
-const message = ['No layout', 'Float-based layout', 'Float fixed grid', 'Flexbox horizontal', 'Flexbox vertical', 'Multicolumn', 'Basic grid', 'More complicated grid']
+const message = ['No layout', 'Float-based layout', 'Float fixed grid', 'Flexbox horizontal', 'Flexbox vertical', 'Multicolumn', 'Basic grid', 'Pseudo-random grid']
 const body = document.body
 
 function switchFeature(e) {
