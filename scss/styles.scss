@@ -13,13 +13,13 @@ html {
 
 header {
   position: fixed;
-  height: 7.5em;
-  width: 15em;
+  height: 9em;
+  width: 18em;
   top: 0;
   padding: 1em;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-content: center;
   flex-wrap: wrap;
   color: #fff;
   background-color: rgba(30, 40, 49, 0.75);
@@ -27,10 +27,15 @@ header {
   > * {
     flex: 1 0 auto;
   }
+}
 
-  label {
-    display: block;
-  }
+h1 {
+  margin-bottom: 0.25em;
+}
+
+label {
+  display: block;
+  line-height: 1.5;
 }
 
 ul {
@@ -129,6 +134,12 @@ img {
     object-fit: cover;
   }
 
+  label::after {
+    content: '*Only displays correctly in Firefox';
+    display: block;
+    font-style: italic;
+  }
+
   _:-moz-tree-row(hover), img {
     width: 100%;
   }
@@ -152,6 +163,12 @@ img {
     height: 100%;
     display: block;
     object-fit: cover;
+  }
+
+  label::after {
+    content: '*Only displays correctly in Firefox';
+    display: block;
+    font-style: italic;
   }
 }
 
