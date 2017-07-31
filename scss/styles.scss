@@ -120,8 +120,6 @@ img {
   ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: stretch;
   }
 
   li {
@@ -150,7 +148,6 @@ img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
     height: calc(100vh - 1em);
   }
 
