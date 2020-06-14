@@ -1,6 +1,8 @@
-###A blank HTML5 template for experiments
+# CSS layouts demo
 
-1. `git clone git@github.com:huijing/blank-html5.git`
+Demo showing different layout techniques from floats to grid.
+
+1. `git clone https://github.com/huijing/layouts-demo.git`
 2. `npm install`
 3. `gulp`
 
